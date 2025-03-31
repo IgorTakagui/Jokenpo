@@ -51,3 +51,7 @@ build(): Responsável por construir a interface gráfica, exibindo as imagens da
     flutter run
 
 ![image](https://github.com/user-attachments/assets/d4f43380-ce20-4c20-863e-da50853709fa)
+
+
+https://github.com/user-attachments/assets/832402af-c12e-4ed8-89f6-3286f0660ebf
+
