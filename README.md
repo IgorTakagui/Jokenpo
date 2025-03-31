@@ -57,7 +57,7 @@ lib/
 
 2. **Clonar o Repositório**:
    Clone o repositório para o seu computador:
-     git clone https://github.com/FelipeBattarra/app-jokenpo.git
+     git clone https://github.com/IgorTakagui/Jokenpo
    
 3. **Instalar Dependências**: Navegue até o diretório do projeto e instale as dependências:
     cd app-jokenpo
