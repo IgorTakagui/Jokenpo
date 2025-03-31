@@ -1,54 +1,38 @@
-# Jogo JokenPo
+Jogo JokenPo
+Este é um aplicativo simples de Pedra, Papel e Tesoura (JokenPo) desenvolvido com o framework Flutter. O app permite que o usuário jogue contra o computador, que faz uma escolha aleatória. O resultado da partida é exibido diretamente na interface.
 
-Este é um aplicativo simples de **JokenPo** (Pedra, Papel, Tesoura) desenvolvido utilizando o framework Flutter. O aplicativo permite que o usuário jogue contra o computador, que escolhe uma opção aleatória. O resultado do jogo é exibido diretamente na interface.
+Funcionalidades
+O jogador pode selecionar entre Pedra, Papel ou Tesoura.
 
-## Funcionalidades
+O aplicativo gera automaticamente uma escolha aleatória para o computador.
 
-- O usuário pode escolher entre **Pedra**, **Papel** ou **Tesoura**.
-- O aplicativo gera uma escolha aleatória para o computador.
-- O resultado é exibido em uma mensagem (você venceu, você perdeu, ou empate).
-- Imagens representando as escolhas do usuário e do aplicativo são exibidas.
+O resultado da partida (vitória, derrota ou empate) é mostrado na tela.
 
-## Como Jogar
+As escolhas do usuário e do aplicativo são representadas por imagens.
 
-1. Ao abrir o aplicativo, o usuário verá a opção "Escolha uma opção abaixo".
-2. O usuário pode escolher entre **Pedra**, **Papel** ou **Tesoura**, clicando nas respectivas imagens.
-3. O aplicativo exibirá a escolha do computador e a mensagem sobre o resultado do jogo (se venceu, perdeu ou empatou).
+Como Jogar
+Ao abrir o aplicativo, será exibida a mensagem "Escolha uma opção abaixo".
 
-## Tecnologias Utilizadas
+O usuário pode selecionar Pedra, Papel ou Tesoura clicando nas imagens correspondentes.
 
-- **Flutter**: Framework de desenvolvimento para apps móveis.
-- **Dart**: Linguagem de programação utilizada no Flutter.
-- **Random**: Para gerar a escolha aleatória do computador.
+O aplicativo exibirá a escolha do computador e mostrará o resultado (se venceu, perdeu ou empatou).
 
-## Estrutura do Código
+Tecnologias Utilizadas
+Flutter: Framework para desenvolvimento de aplicativos móveis.
 
-O código consiste na criação de um **StatefulWidget** chamado `Jogo`, onde o estado da escolha do usuário e do aplicativo é mantido e atualizado com base nas interações do usuário.
+Dart: Linguagem de programação usada no Flutter.
 
-### Funções principais:
+Random: Utilizado para gerar a escolha aleatória do computador.
 
-- **_jogar(String escolhaUsuario)**: Recebe a escolha do usuário, gera uma escolha aleatória para o computador, compara as escolhas e atualiza o resultado.
-- **build()**: Método de construção da interface gráfica, contendo a visualização das imagens de escolha e a exibição do resultado.
+Estrutura do Código
+O código é baseado na criação de um StatefulWidget chamado Jogo, onde o estado do jogo é armazenado e atualizado conforme as interações do usuário.
 
-## Imagens Utilizadas
+Principais funções:
+_jogar(String escolhaUsuario): Recebe a opção escolhida pelo jogador, gera uma escolha aleatória para o computador, compara os resultados e atualiza o estado do jogo.
 
-As imagens dos itens **Pedra**, **Papel**, e **Tesoura** são utilizadas para representar as escolhas do usuário e do aplicativo. Essas imagens devem estar na pasta `images` dentro do diretório do projeto.
+build(): Responsável por construir a interface gráfica, exibindo as imagens das opções disponíveis e o resultado da rodada.
 
-### Estrutura de Pastas:
 
-images/
-
-  - pedra.png
-
-  - papel.png
-
-  - tesoura.png
-
-  - padrao.png
-
-lib/
-
-  - main.dart (onde o código do aplicativo está implementado)
 
 ## Como Executar
 
@@ -66,3 +50,4 @@ lib/
 4. **Executar o Aplicativo**: Conecte um dispositivo físico ou use um emulador e execute o aplicativo:
     flutter run
 
+![image](https://github.com/user-attachments/assets/d4f43380-ce20-4c20-863e-da50853709fa)
